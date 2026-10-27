@@ -1,5 +1,5 @@
 
-""" PROGRESSIVE ELECTRICITY BILLING
+PROGRESSIVE ELECTRICITY BILLING
 
 PROBLEM STATEMENT:
 
@@ -106,7 +106,7 @@ END FOR
 
 DISPLAY all monthly bill results
 
-PYTHON SOURCE CODE:"""
+PYTHON SOURCE CODE:
 # Progressive Electricity Billing
 # Example tariff values; replace them with your utility's actual rates.
 
@@ -243,7 +243,7 @@ if __name__ == "__main__":
     main()
 
 
-"""TEST CASES:
+TEST CASES:
 
 Expected results below use the example tariff and generic currency units.
 
@@ -266,4 +266,7 @@ Month            Usage                      Expected total                      
 
 CONCLUSION:
 
-This program calculates progressive electricity charges by applying the rate for each consumption slab only to the kWh within that slab. It then adds the fixed charge and surcharge, deducts the rebate, and compares each bill with the previous month. The example tariff and 20% alert threshold should be changed to match the user’s utility and preferred comparison rule."""
+This program calculates progressive electricity charges by applying the rate for each consumption slab only to the kWh within that slab. It then adds the fixed charge and surcharge
+, deducts the rebate, and compares each bill with the previous month. The example tariff and 20% alert threshold should be changed to match the user’s utility and preferred comparison rule.
+
+
